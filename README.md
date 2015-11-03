@@ -4,6 +4,7 @@ This cookbook provides primitives - helpers and resources - to manage Chef Softw
 
 - Chef Server 12
 - Chef Analytics
+- Chef Compliance
 - Chef Delivery
 - Chef Push
 - Supermarket

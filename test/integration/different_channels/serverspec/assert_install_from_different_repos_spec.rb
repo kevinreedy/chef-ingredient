@@ -10,4 +10,8 @@ describe 'chef-ingredient::default' do
     # This version is only available in current
     expect(package('opscode-analytics').version).to eq('1.1.6+20150918090908.git.49.337923e-1')
   end
+
+  it 'chef-compliance should be installed from stable' do
+    expect(package('chef-compliance').version).to eq('0.9.0')
+  end
 end

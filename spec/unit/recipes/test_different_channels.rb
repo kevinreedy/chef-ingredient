@@ -35,5 +35,9 @@ describe 'test::different_channels' do
     it 'installs analytics' do
       expect(ubuntu_1404).to install_package('opscode-analytics')
     end
+
+    it 'installs compliance' do
+      expect(ubuntu_1404).to install_pakcage('chef-compliance')
+    end
   end
 end

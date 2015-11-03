@@ -9,3 +9,9 @@ chef_ingredient 'analytics' do
   version '1.1.6+20150918090908.git.49.337923e' # only available in current
   action :install
 end
+
+chef_ingredient 'compliance' do
+  channel :stable
+  version '0.9.0'
+  action :install
+end
